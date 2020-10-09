@@ -40,6 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1649921688430797365}
+  - component: {fileID: 2633439530272944192}
   m_Layer: 0
   m_Name: Albina_house
   m_TagString: Untagged
@@ -63,6 +64,25 @@ Transform:
   m_Father: {fileID: 2633439529119748796}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2633439530272944192
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138756429753956495}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a99331764fe4fc749b5a14bd05851e50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2633439529119748799
 GameObject:
   m_ObjectHideFlags: 0
@@ -72,6 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2633439529119748796}
+  - component: {fileID: 1304715906}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -94,6 +115,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1304715906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633439529119748799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab926a54a6335424eb0a1ce2dc91bb61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  house: {fileID: 2633439530272944192}
 --- !u!1 &8799163386962540114
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,6 +220,7 @@ GameObject:
   - component: {fileID: 8687836191173499051}
   - component: {fileID: 1095712819318940128}
   - component: {fileID: 7900403399647562340}
+  - component: {fileID: 2633439530272944194}
   m_Layer: 0
   m_Name: Roof
   m_TagString: Untagged
@@ -256,3 +291,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2633439530272944194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9218274766639397064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46130374, y: 0.5454642, z: 0.13215643}
+  m_Center: {x: -0.20197038, y: 0.0014629628, z: 0.44248018}
