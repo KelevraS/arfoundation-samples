@@ -93,6 +93,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2633439529119748796}
   - component: {fileID: 1304715906}
+  - component: {fileID: 2982680696474274701}
+  - component: {fileID: 1304715907}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -128,6 +130,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   house: {fileID: 2633439530272944192}
+--- !u!114 &2982680696474274701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633439529119748799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e966661e5c3599459c4c72b165e838b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  view: {fileID: 1304715906}
+  model: {fileID: 1304715907}
+  controller: {fileID: 0}
+--- !u!114 &1304715907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633439529119748799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ec343c0b1b5634888c0e332ad923c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8799163386962540114
 GameObject:
   m_ObjectHideFlags: 0
