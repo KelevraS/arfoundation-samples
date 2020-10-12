@@ -358,7 +358,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_PlacementPrefab: {fileID: 0}
+  m_PlacementPrefab: {fileID: 2633439529119748799, guid: 96b67a4ddebdcac499300b130f13a87c,
+    type: 3}
   m_OnObjectPlaced:
     m_PersistentCalls:
       m_Calls: []
