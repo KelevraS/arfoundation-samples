@@ -16,6 +16,7 @@ namespace Project.SW.AR_House.Scripts.Runtime.Controller
         {
             controller = FindObjectOfType<InputController>();
             
+            
             if (controller)
                 controller.OnRaycastHit += ChangeRoofState;
 

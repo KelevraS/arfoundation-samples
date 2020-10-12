@@ -1,9 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Project.SW.AR_House.Scripts.Runtime.Model
 {
     public class HouseModel : MonoBehaviour
     {
+        private void Start()
+        {
+            HouseAR.Instance.Models.House = this;
+        }
+
         public bool IsRoofOpened
         {
             get => _isRoofOpened;
