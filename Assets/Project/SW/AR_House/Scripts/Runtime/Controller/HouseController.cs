@@ -32,5 +32,10 @@ namespace Project.SW.AR_House.Scripts.Runtime.Controller
         {
             model.ChangeRoofState();
         }
+
+        public void SetFloorStatus(Floor floor)
+        {
+            view.ActivateCertainFloor(floor);
+        }
     }
 }
