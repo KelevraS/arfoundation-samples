@@ -16,6 +16,8 @@ namespace Project.SW.AR_House.Scripts.Runtime.View
         {
             groundToggle.onValueChanged.AddListener(GroundSelectorChangedState);
             firstFloorToggle.onValueChanged.AddListener(FirstSelectorChangedState);
+            
+            firstFloorToggle.onValueChanged.Invoke(true);
         }
 
         private void GroundSelectorChangedState(bool state)

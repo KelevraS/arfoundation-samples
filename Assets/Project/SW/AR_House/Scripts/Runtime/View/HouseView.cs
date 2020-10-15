@@ -34,12 +34,12 @@ namespace Project.SW.AR_House.Scripts.Runtime.View
             switch (floor)
             {
                 case Floor.Ground:
-                    SetStatusOfFloorObjects(groundFloorObjects, groundFloorFurnitureObjects,true);
+                    //SetStatusOfFloorObjects(groundFloorObjects, groundFloorFurnitureObjects,true);
                     SetStatusOfFloorObjects(firstFloorObjects, firstFloorFurnitureObjects,false);
                     break;
                     
                 case Floor.First:
-                    SetStatusOfFloorObjects(groundFloorObjects, groundFloorFurnitureObjects,false);
+                    //SetStatusOfFloorObjects(groundFloorObjects, groundFloorFurnitureObjects,false);
                     SetStatusOfFloorObjects(firstFloorObjects, firstFloorFurnitureObjects, true);
                     break;
             }
