@@ -25,10 +25,11 @@ namespace Project.SW.AR_House.Scripts.Runtime.Controller
 
         private void RoofAction()
         {
+            Debug.LogFormat("OpenRoof");
             view.House.SetBool("RoofOpened", model.IsRoofOpened);
         }
 
-        private void ChangeRoofState()
+        public void ChangeRoofState()
         {
             model.ChangeRoofState();
         }
@@ -36,6 +37,11 @@ namespace Project.SW.AR_House.Scripts.Runtime.Controller
         public void SetFloorStatus(Floor floor)
         {
             view.ActivateCertainFloor(floor);
+        }
+
+        public void RoofAct()
+        {
+            RoofAction();
         }
     }
 }

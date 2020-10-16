@@ -13,8 +13,14 @@ namespace Project.SW.AR_House.Scripts.Runtime.Controller
         public void ObjectPlaced(bool state)
         {
             view.SetSelectorState(state);
+            view.SetHouseControlUI(state);
         }
-        
-        
+
+        public void ObjectRemoved(bool state)
+        {
+            view.SetSelectorState(state);
+            view.SetHouseControlUI(state);
+        }
+
     }
 }

@@ -10,7 +10,7 @@ namespace Project.SW.AR_House.Scripts.Runtime.Controller
         
         private void Start()
         {
-            view.OnRaycastHit += RaycastHit;
+            //view.OnRaycastHit += RaycastHit;
         }
 
         public event InputView.RaycastHandler OnRaycastHit;
